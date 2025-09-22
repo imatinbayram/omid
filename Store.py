@@ -23,8 +23,8 @@ css_header = """
        font-weight: bold;
     }
     
-/*    [data-testid="stHeader"] { display: none; }
-*/
+    [class="stToolbarActions"] { display: none; }
+
     [class="viewerBadge_link__qRIco"] { display: none; }
 
     [data-testid="stElementToolbar"] { display: none; }
@@ -376,5 +376,6 @@ setTimeout(function() {
 # st.markdown deyil, st.components.v1.html istifadə et
 
 st.components.v1.html(html_string, height=0)
+
 
 
