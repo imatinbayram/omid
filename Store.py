@@ -24,7 +24,8 @@ css_header = """
     }
     
     [data-testid="stToolbarActionButton"] { display: none; }
-
+    [data-testid="stMainMenu"] { display: none; }
+    
     [class="viewerBadge_link__qRIco"] { display: none; }
 
     [data-testid="stElementToolbar"] { display: none; }
@@ -376,6 +377,7 @@ setTimeout(function() {
 # st.markdown deyil, st.components.v1.html istifadə et
 
 st.components.v1.html(html_string, height=0)
+
 
 
 
