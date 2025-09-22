@@ -22,9 +22,10 @@ css_header = """
        color: black;
        font-weight: bold;
     }
-/*
+    
     [data-testid="stHeader"] { display: none; }
     [class="viewerBadge_link__qRIco"] { display: none; }
+/*
     [data-testid="stElementToolbar"] { display: none; }
 */
     button[title="View fullscreen"] { visibility: hidden; }
@@ -374,3 +375,4 @@ setTimeout(function() {
 # st.markdown deyil, st.components.v1.html istifadə et
 
 st.components.v1.html(html_string, height=0)
+
