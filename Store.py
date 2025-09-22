@@ -23,7 +23,7 @@ css_header = """
        font-weight: bold;
     }
     
-    [class="stToolbarActions"] { display: none; }
+    [data-testid="stToolbarActionButton"] { display: none; }
 
     [class="viewerBadge_link__qRIco"] { display: none; }
 
@@ -376,6 +376,7 @@ setTimeout(function() {
 # st.markdown deyil, st.components.v1.html istifadə et
 
 st.components.v1.html(html_string, height=0)
+
 
 
 
